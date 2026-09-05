@@ -1,0 +1,6 @@
+{
+  "name": "SAHAY",
+  "description": "Cooperative Gig Services Platform for Household & Community Services (Smart India Hackathon)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
