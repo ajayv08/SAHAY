@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0B2A5C;
+  --green: #2E9E4F;
+  --black: #0F0F0F;
+  --white: #FFFFFF;
+  --orange: #F5821F;
+  --gray-border: #E2E5EA;
+  --gray-bg: #F8F9FA;
+  --gray-subtle: #F0F2F5;
+  --gray-text: #596780;
+}
+
+body {
+  color: var(--black);
+  background-color: #FAFAFB;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom institutional flat design utility helpers */
+.bg-navy {
+  background-color: var(--navy);
+}
+.text-navy {
+  color: var(--navy);
+}
+.border-navy {
+  border-color: var(--navy);
+}
+
+.bg-orange-accent {
+  background-color: var(--orange);
+}
+.text-orange-accent {
+  color: var(--orange);
+}
+.border-orange-accent {
+  border-color: var(--orange);
+}
+
+.bg-coop-green {
+  background-color: var(--green);
+}
+.text-coop-green {
+  color: var(--green);
+}
+.border-coop-green {
+  border-color: var(--green);
+}
+
+.border-gov {
+  border-color: var(--gray-border);
+}
+
+/* Flat button base */
+.btn-primary {
+  background-color: var(--navy);
+  color: #FFFFFF;
+  font-weight: 500;
+  transition: opacity 0.15s ease;
+}
+.btn-primary:hover {
+  opacity: 0.92;
+}
+
+.btn-cta {
+  background-color: var(--orange);
+  color: #FFFFFF;
+  font-weight: 600;
+  transition: opacity 0.15s ease;
+}
+.btn-cta:hover {
+  opacity: 0.92;
+}
